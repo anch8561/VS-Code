@@ -1,0 +1,72 @@
+{
+    // VS Code
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never",
+    "editor.codeLens": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.minimap.maxColumn": 50,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.rulers": [80],
+    "editor.smoothScrolling": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell",
+          "args": ["-ExecutionPolicy", "Bypass"]
+        }
+    },
+    "workbench.panel.defaultLocation": "left",
+    "workbench.settings.editor": "json",
+	"workbench.settings.useSplitJSON": true,
+    "workbench.startupEditor": "none",
+
+    // Auto Build Marlin
+    "auto-build.showOnStart": false,
+    "auto-build.build.silent": false,
+    "auto-build.defaultEnv.name": "STM32G0B1RE_btt",
+
+    // Rewrap
+    "rewrap.autoWrap.enabled": true,
+    "rewrap.wholeComment": false,
+
+    // TODO Highlight
+    "todohighlight.keywords": [
+        {
+            "text": "# HACK:",
+            "color": "black",
+            "backgroundColor": "lime",
+            "fontWeight": "bold"
+        },
+        {
+            "text": "# NOTE:",
+            "color": "black",
+            "backgroundColor": "yellow",
+            "fontWeight": "bold"
+        },
+        {
+            "text": "# TODO:",
+            "color": "black",
+            "backgroundColor": "orange",
+            "fontWeight": "bold"
+        },
+        {
+            "text": "# FIX:",
+            "color": "black",
+            "backgroundColor": "red",
+            "fontWeight": "bold"
+        }
+    ]
+}
